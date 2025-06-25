@@ -39,8 +39,7 @@ Siga os passos abaixo para configurar e rodar o projeto.
 
 1.  **Clone o Repositório** (ou crie os arquivos manualmente):
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd websocket_challenge
+    git clone https://github.com/lucasjose256/teste-bluelephant.git
     ```
 
 2.  **Crie e Ative um Ambiente Virtual (Recomendado):**
