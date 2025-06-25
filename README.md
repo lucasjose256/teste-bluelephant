@@ -63,14 +63,14 @@ Siga os passos abaixo para configurar e rodar o projeto.
     ```
     Você verá a mensagem: `Servidor WebSocket iniciado em ws://localhost:8765`
 
-5.  **Inicie os Clientes:**
-    Abra um outro terninal e digite os seguintes comandos:
-    ```bash
-   cd frontend
-    ```
-      ```bash
-   python3 -m hhtp.server 8000
-    ```
+### 5. **Inicie os Clientes**
+
+Abra **outro terminal** (mantendo o servidor rodando no primeiro) e execute os comandos abaixo para iniciar a interface web:
+
+```bash
+cd frontend
+python -m http.server 8000
+```
 
 6.  **Interaja:**  
     * Abra o navegador e acesse o endereço: [http://localhost:8000](http://localhost:8000)  
